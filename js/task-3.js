@@ -1,5 +1,5 @@
 function getElementWidth (content, padding, border) {
-    const totalWidth = content + padding + border;
+    const totalWidth = content + 2 * padding + 2 * border;
     return `${totalWidth}px`;
 }
 console.log(getElementWidth("50px", "8px", "4px")); // 74
